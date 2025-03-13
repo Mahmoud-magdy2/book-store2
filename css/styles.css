@@ -62,7 +62,22 @@ header .col-auto .button button {
 /* #region Abdo-Mahmoud */
 
 .our {
-  padding-top: 210px;
+  margin-top: 210px;
+  position: relative;
+}
+
+.our .led {
+  position: absolute;
+  top: 0;
+  left: 81px;
+  z-index: -1;
+}
+
+.our .arrow {
+  position: absolute;
+  top: 0;
+  right: 23px;
+  z-index: -1;
 }
 
 .our .headeng-text {
@@ -81,6 +96,21 @@ header .col-auto .button button {
   line-height: 140%;
 }
 
+.our .row article {
+  padding: 13px;
+  padding-bottom: 50px;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 795px) {
+  .our .led,
+  .our .arrow {
+    display: none;
+  }
+}
+
 /* #endregion Abdo-Mahmoud */
 
 /* _____Mohamed-Sayed______ */
@@ -95,26 +125,26 @@ header .col-auto .button button {
 
 /* ______Mohamed-Abdo______ */
 /* #region Mohamed-Abdo */
-.subscribe{
+.subscribe {
   padding: 0px 244px;
 }
 
-.subscribe_container{
+.subscribe_container {
   border-radius: 14px;
-  background: #4D2C5E;
+  background: #4d2c5e;
   margin-top: 159px;
   margin-bottom: 126px;
   text-align: center;
 }
 
-.subscribe .circle_container{
+.subscribe .circle_container {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
 }
 
-.subscribe_text_group h1{
+.subscribe_text_group h1 {
   color: var(--c-white);
   font-family: Poppins;
   font-size: 40px;
@@ -123,7 +153,7 @@ header .col-auto .button button {
   letter-spacing: 0.8px;
 }
 
-.subscribe_text_group p{
+.subscribe_text_group p {
   color: var(--c-white);
   font-family: Poppins;
   font-size: 20px;
@@ -132,7 +162,7 @@ header .col-auto .button button {
   line-height: normal;
 }
 
-.subscribe_input_group{
+.subscribe_input_group {
   display: flex;
   border-radius: 62px;
   background: var(--c-white);
