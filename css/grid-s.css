@@ -52,12 +52,6 @@
   background: var(--Text-Colour-3);
 }
 
-html,
-body {
-  overflow-x: hidden;
-  scrollbar-width: none;
-}
-
 a {
   text-decoration: none;
 }
