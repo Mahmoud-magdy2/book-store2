@@ -75,5 +75,46 @@ header .col-auto .button button {
 
 /* ______Mohamed-Abdo______ */
 /* #region Mohamed-Abdo */
+.subscribe{
+  padding: 0px 244px;
+}
 
+.subscribe_container{
+  border-radius: 14px;
+  background: #4D2C5E;
+  margin-top: 159px;
+  margin-bottom: 126px;
+  text-align: center;
+}
+
+.subscribe .circle_container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe_text_group h1{
+  color: var(--c-white);
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.subscribe_text_group p{
+  color: var(--c-white);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.subscribe_input_group{
+  display: flex;
+  border-radius: 62px;
+  background: var(--c-white);
+}
 /* #endregion Mohamed-Abdo */
