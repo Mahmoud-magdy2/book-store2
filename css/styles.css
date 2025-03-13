@@ -120,6 +120,11 @@ header .col-auto .button button {
 .our .row article .img img {
   border-radius: 14px;
   width: 100%;
+  transition: all 0.3s;
+}
+
+.our .row article .img img:hover {
+  scale: 1.02;
 }
 
 .our .row article a {
