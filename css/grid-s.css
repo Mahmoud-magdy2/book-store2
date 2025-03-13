@@ -52,24 +52,6 @@
   background: var(--Text-Colour-3);
 }
 
-a,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-span,
-p,
-input,
-select,
-textarea,
-label,
-button,
-body {
-  font-family: "Rubik", serif;
-}
-
 html,
 body {
   overflow-x: hidden;
