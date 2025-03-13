@@ -61,6 +61,26 @@ header .col-auto .button button {
 /* ______Abdo-Mahmoud______ */
 /* #region Abdo-Mahmoud */
 
+.our {
+  padding-top: 210px;
+}
+
+.our .headeng-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 9px;
+}
+
+.our .headeng-text h2 {
+  color: var(--c-black);
+  font-size: calc(25px + 1.31vw);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+
 /* #endregion Abdo-Mahmoud */
 
 /* _____Mohamed-Sayed______ */
