@@ -262,6 +262,10 @@ header .col-auto .button button {
 
 /* ______Mohamed-Abdo______ */
 /* #region Mohamed-Abdo */
+.subscribe .container {
+  padding: 0px 48px;
+}
+
 .subscribe .subscribe_frame {
   width: 100%;
   min-height: 429px;
@@ -347,6 +351,10 @@ footer {
 footer .footer_frame {
   display: flex;
   justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 65px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 footer .footer_frame p {
@@ -370,8 +378,10 @@ footer h6 {
   margin-bottom: 29px;
 }
 
-footer li {
-  margin-bottom: 27px;
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
 }
 
 footer a {
