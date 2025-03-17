@@ -233,6 +233,11 @@ header .col-auto .button button {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  transition: all 0.3s;
+}
+
+.our .row article .icons .icon:hover {
+  color: var(--c-black);
 }
 
 @media (max-width: 795px) {
@@ -244,9 +249,9 @@ header .col-auto .button button {
 
 /* #endregion our */
 
-/* #region */
+/* #region premium */
 
-/* #endregion */
+/* #endregion premium */
 
 /* #endregion Abdo-Mahmoud */
 
