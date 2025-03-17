@@ -96,10 +96,6 @@ button {
   justify-content: space-between;
 }
 
-.align-items-center {
-  align-items: center;
-}
-
 .flex-direction-column {
   flex-direction: column;
 }
@@ -110,6 +106,10 @@ button {
 
 .gap-8 {
   gap: 8px;
+}
+
+.gap-9 {
+  gap: 9px;
 }
 
 .gap-10 {
@@ -142,6 +142,9 @@ button {
 
 .gap-28 {
   gap: 28px;
+}
+.gap-30 {
+  gap: 30px;
 }
 
 .gap-48 {
