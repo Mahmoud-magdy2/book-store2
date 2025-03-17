@@ -191,6 +191,13 @@ header .col-auto .button button {
   line-height: 1.4em;
 }
 
+.our .headeng-text p {
+  color: var(--c-stone-gray);
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 65px;
+}
+
 .our .row {
   row-gap: 70px;
   justify-content: center;
