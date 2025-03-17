@@ -56,6 +56,98 @@ header .col-auto .button button {
   height: 65px;
 }
 
+/* _______________________________H E R O - S E C T I O N_____________________________ */
+.smart-choice {
+  background: url(../img/m-m-a/bakgrond.svg) no-repeat right #fdf8ee;
+  height: 900px;
+  padding-top: 240px;
+  padding-bottom: 76px;
+}
+
+.smart-choice .row {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.smart-choice .row .ma-r {
+  margin-top: 33px;
+}
+.smart-choice .text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.smart-choice .text-group h1 {
+  color: var(----c-deep-navy);
+  font-family: Roboto;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  width: 586px;
+}
+
+.smart-choice .text-group span {
+  color: var(--c-burnt-orange);
+  font-family: Roboto;
+  font-size: 69px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 135%;
+}
+
+.smart-choice .text-group p {
+  color: var(--c-stone-gray);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  width: 586px;
+  padding-bottom: 50px;
+}
+
+.smart-choice form {
+  position: relative;
+}
+
+.smart-choice form input {
+  width: 100%;
+  width: 565px;
+  height: 79px;
+  border-radius: 96px;
+  background: var(--c-white);
+  border: none;
+  padding-left: 20px;
+  color: var(--c-ark-navy-blue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.smart-choice form button {
+  background: var(--c-grape-purple);
+  width: 158px;
+  height: 69px;
+  border-radius: 96px;
+  border: 1px solid var(--Primary-Colour);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  right: 6px;
+  transition: all 0.5s;
+  color: var(--c-white);
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
 /* #endregion Mahmoud-Magdy */
 
 /* ______Abdo-Mahmoud______ */
