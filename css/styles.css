@@ -72,6 +72,7 @@ header .col-auto .button button {
 .smart-choice .row .ma-r {
   margin-top: 33px;
 }
+
 .smart-choice .text-group {
   display: flex;
   flex-direction: column;
@@ -84,7 +85,7 @@ header .col-auto .button button {
   font-size: 69px;
   font-style: normal;
   font-weight: 800;
-  width: 586px;
+  max-width: 586px;
 }
 
 .smart-choice .text-group span {
@@ -148,12 +149,96 @@ header .col-auto .button button {
   line-height: normal;
 }
 
+/* ____________________________media_____________________________ */
+
+/*  mobile sm */
+@media (max-width: 470px) {
+  header .col-auto .links {
+    display: none;
+  }
+
+  header {
+    padding: 12px 12px 0 12px;
+  }
+
+  header .col-auto .button button {
+    border-radius: 218px;
+    width: 130px;
+    height: 65px;
+  }
+
+  .smart-choice .row {
+    flex-wrap: wrap;
+  }
+
+  .smart-choice .col-auto .image {
+    display: none;
+  }
+
+  .smart-choice .text-group {
+    text-align: center;
+  }
+
+  .smart-choice .text-group h1 {
+    max-width: 400px;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  .smart-choice .text-group p {
+    width: 100px;
+    flex-wrap: wrap;
+  }
+
+  .smart-choice form {
+    width: 400px;
+  }
+  .smart-choice form input {
+    width: 400px;
+  }
+}
+
+/*  Tablet md */
+@media (max-width: 992px) {
+  header .col-auto .links {
+    display: none;
+  }
+
+  header {
+    padding: 12px 12px 0 12px;
+  }
+
+  .smart-choice .col-auto .image {
+    display: none;
+  }
+
+  .smart-choice .text-group h1 {
+    width: 400px;
+  }
+  .smart-choice .text-group p {
+    width: 400px;
+  }
+
+  .smart-choice .text-group {
+    text-align: center;
+  }
+}
+
+/*  Default Desktop  l OR xl */
+@media (min-width: 992px) {
+  header {
+    padding: 12px 12px 0 12px;
+  }
+}
+
+@media (max-width: 1030px) {
+  header .col-auto .links {
+    display: none;
+  }
+}
 /* #endregion Mahmoud-Magdy */
 
 /* ______Abdo-Mahmoud______ */
 /* #region Abdo-Mahmoud */
-
-/* #region our */
 
 .our {
   margin-top: 210px;
@@ -345,13 +430,12 @@ header .col-auto .button button {
   }
 }
 
-/* #endregion our */
-
-/* #region premium */
-
-/* #endregion premium */
-
 /* #endregion Abdo-Mahmoud */
+
+/* __Abdelrahman-Elshahwy__ */
+/* #region Abdelrahman-Elshahwy */
+
+/* #endregion Abdelrahman-Elshahwy */
 
 /* _____Mohamed-Sayed______ */
 /* #region Mohamed-Sayed */
