@@ -58,12 +58,17 @@ header .col-auto .button button {
 
 /* _______________________________H E R O - S E C T I O N_____________________________ */
 .smart-choice {
-  background: url(../img/m-m-a/bakgrond.svg) no-repeat right #fdf8ee;
-  height: 900px;
-  padding-top: 240px;
-  padding-bottom: 76px;
+  position: relative;
 }
 
+.smart-choice .gp {
+  background: url(../img/m-m-a/bakgrond.svg) no-repeat right #fdf8ee;
+  min-height: 900px;
+  padding-top: 240px;
+  padding-bottom: 218px;
+
+  background-size: cover;
+}
 .smart-choice .row {
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -151,18 +156,31 @@ header .col-auto .button button {
 
 /* ____________________________S K I L L S_________________________________ */
 
-.skills .container {
-  width: 1432px;
-  height: 277px;
-  border-radius: 14px;
-
-  background: #4d2c5e;
+.skills {
+  padding: 0 15px;
+  position: absolute;
+  width: 100%;
+  bottom: -138px;
 }
 
-.skills .box-s {
+.skills .container {
+  max-width: 1432px;
+  min-height: 277px;
+  border-radius: 14px;
+  width: 100%;
+  background: #4d2c5e;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  padding: 70px 35px 70px 35px;
+  padding: 30px;
+}
+
+.skills .row {
+  display: flex;
+
   gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .skills .col-auto li {
@@ -200,7 +218,6 @@ header .col-auto .button button {
   flex-direction: column;
   gap: 16px;
   width: 292px;
-  height: 88px;
   flex-shrink: 0;
 }
 
