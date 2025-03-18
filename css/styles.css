@@ -312,8 +312,6 @@ header .col-auto .button button {
 /* ______Abdo-Mahmoud______ */
 /* #region Abdo-Mahmoud */
 
-/* #region our */
-
 .our {
   margin-top: 210px;
   margin-bottom: 154px;
@@ -504,16 +502,89 @@ header .col-auto .button button {
   }
 }
 
-/* #endregion our */
-
-/* #region premium */
-
-/* #endregion premium */
-
 /* #endregion Abdo-Mahmoud */
+
+/* __Abdelrahman-Elshahwy__ */
+/* #region Abdelrahman-Elshahwy */
+
+/* #endregion Abdelrahman-Elshahwy */
 
 /* _____Mohamed-Sayed______ */
 /* #region Mohamed-Sayed */
+.soo {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.E {
+  text-align: center;
+  padding-top: 130px;
+  color: #050c26;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 167.5%;
+}
+.q {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 82px;
+  color: #8a8a8a;
+  font-size: 20px;
+  font-weight: 500;
+}
+.soo .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.soo .itme {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
+  gap: 25px;
+}
+.soo .tt {
+  color: #acacac;
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 156.5%;
+  gap: 26px;
+}
+.soo .text-imge {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.soo .text-imge .img img {
+  width: 100%;
+}
+
+.soo .text-groupp {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.soo .text-groupp h5 {
+  padding-top: 24px;
+  font-family: Poppins;
+  color: #353535;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 156.5%;
+  letter-spacing: 0.34px;
+}
+.soo .text-groupp p {
+  color: #8e8e8e;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 156.5%;
+  letter-spacing: 0.26px;
+}
+.soo .container {
+  position: relative;
+}
 
 /* #endregion Mohamed-Sayed */
 
