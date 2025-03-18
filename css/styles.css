@@ -355,7 +355,71 @@ header .col-auto .button button {
 
 /* _____Mohamed-Sayed______ */
 /* #region Mohamed-Sayed */
+.soo {
+  background: #fff;
+  box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
+}
+.E {
+  text-align: center;
+  padding-top: 130px;
+  color: #050c26;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 167.5%;
+}
+.q {
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 82px;
+  color: #8a8a8a;
+  font-size: 20px;
+  font-weight: 500;
+}
+.soo .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.soo .tt {
+  color: #acacac;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 156.5%;
+  gap: 26px;
+}
+.soo .text-imge {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.soo .text-imge .img img {
+  width: 100%;
+}
 
+.soo .text-groupp {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.soo .text-groupp h5 {
+  padding-top: 24px;
+  color: #353535;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 156.5%;
+  letter-spacing: 0.34px;
+}
+.soo .text-groupp p {
+  color: #8e8e8e;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 156.5%;
+  letter-spacing: 0.26px;
+}
+.soo .svg {
+  display: flex;
+  justify-content: space-between;
+}
 /* #endregion Mohamed-Sayed */
 
 /* _____Mohamed-Essam______ */
