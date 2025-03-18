@@ -149,6 +149,78 @@ header .col-auto .button button {
   line-height: normal;
 }
 
+/* ____________________________S K I L L S_________________________________ */
+
+.skills .container {
+  width: 1432px;
+  height: 277px;
+  border-radius: 14px;
+
+  background: #4d2c5e;
+}
+
+.skills .box-s {
+  display: flex;
+  padding: 70px 35px 70px 35px;
+  gap: 50px;
+}
+
+.skills .col-auto li {
+  display: flex;
+  gap: 25px;
+}
+
+.skills .col-auto .image-1 {
+  width: 102px;
+  height: 101px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 24px 24px 23px 24px;
+}
+.skills .col-auto .image-2 {
+  width: 102px;
+  height: 101px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px 20px 19px 20px;
+}
+.skills .col-auto .image-3 {
+  width: 102px;
+  height: 101px;
+  flex-shrink: 0;
+  border-radius: 23px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 21px 21px 20px 21px;
+}
+
+.skills .col-auto .text-h-p {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 292px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+.skills .col-auto .text-h-p h2 {
+  color: var(--c-white);
+  font-family: Roboto;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.skills .col-auto .text-h-p p {
+  color: var(--c-milky-white);
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
 /* ____________________________media_____________________________ */
 
 /*  mobile sm */
