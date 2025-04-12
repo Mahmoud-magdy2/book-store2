@@ -531,8 +531,17 @@ header .col-auto .button button {
 .soo {
   margin-top: 50px;
   margin-bottom: 80px;
+  border-radius: 960px;
+  background: url(../img/m.o.m/Ellipse\ 27.svg) no-repeat;
 }
-.E {
+.soo .E {
+  color: #050c26;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
   text-align: center;
   padding-top: 130px;
   color: #050c26;
@@ -540,18 +549,23 @@ header .col-auto .button button {
   font-weight: 600;
   line-height: 167.5%;
 }
-.q {
+.soo .q {
   text-align: center;
   padding-top: 9px;
   padding-bottom: 82px;
-  color: #8a8a8a;
+  color: var(--c-stone-gray);
   font-size: 20px;
   font-weight: 500;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .soo .row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 26px;
 }
 .soo .itme {
   display: flex;
@@ -559,6 +573,9 @@ header .col-auto .button button {
   background: #fff;
   box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
   gap: 25px;
+  width: 416px;
+  height: 255px;
+  padding: 32px;
 }
 .soo .tt {
   color: #acacac;
@@ -581,6 +598,7 @@ header .col-auto .button button {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 19px;
 }
 .soo .text-groupp h5 {
   padding-top: 24px;
